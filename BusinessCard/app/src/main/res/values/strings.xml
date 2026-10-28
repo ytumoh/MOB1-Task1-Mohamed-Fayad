@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="mohamed_example_com">mohamed@example.com</string>
+    <string name="mohamed_fayad">Mohamed Fayad</string>
+    <string name="software_developer">Software Developer</string>
+    <string name="_970_59_123_4567">+970 59 123 4567</string>
+    <string name="linkedin_com_in_mohamed">linkedin.com/in/mohamed</string>
+</resources>

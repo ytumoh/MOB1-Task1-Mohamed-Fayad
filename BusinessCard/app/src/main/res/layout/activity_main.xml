@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#F1F5FB"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/card"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="12dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/mohamed_fayad"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#14213D"
+        android:gravity="center" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/software_developer"
+        android:textSize="17sp"
+        android:textColor="#64748B"
+        android:gravity="center" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="14dp"
+        android:background="#D7E3F4" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/baseline_local_phone_24"
+            app:tint="#2878D0"
+            android:contentDescription="Email"
+            android:scaleType="fitCenter"
+            android:padding="9dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/mohamed_example_com"
+            android:textSize="14sp"
+            android:textColor="#14213D" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFFFFF">
+
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/baseline_local_phone_24"
+            app:tint="#2878D0"
+            android:contentDescription="Email"
+            android:scaleType="fitCenter"
+            android:padding="9dp" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_970_59_123_4567"
+            android:textSize="15sp"
+            android:textColor="#14213D" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/baseline_local_phone_24"
+            app:tint="#2878D0"
+            android:contentDescription="Email"
+            android:scaleType="fitCenter"
+            android:padding="9dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/linkedin_com_in_mohamed"
+            android:textSize="14sp"
+            android:textColor="#14213D" />
+    </LinearLayout>
+
+</LinearLayout>
